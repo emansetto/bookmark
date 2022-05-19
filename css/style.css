@@ -1,0 +1,76 @@
+.body-contain
+{
+    text-align: center;
+}
+h3
+{
+    margin: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    color: rgb(188, 185, 185);
+}
+.line
+{
+    border-bottom: 1px solid rgb(188, 185, 185);
+    margin: 15px auto;
+}
+.container
+{
+    padding:0 15px;
+    margin: 15px auto;
+   
+}
+.body-contain
+{
+    padding: 30px;
+    background-color: #eee;
+}
+input
+{
+    width: 80%;
+}
+.alert
+{
+    padding: 5px;
+    margin: 10px;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0%;
+}
+.alert-error
+{
+    background-color: #ffb2b2;
+    color: #6d0000;
+    border: 1px solid #6d0000;
+}
+p
+{
+    font-weight: bold;
+    color: #333;
+}
+h2
+{
+    margin: 20px;
+}
+.bookmark
+{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(#EEE,#FFF);
+    margin: 10px 0;
+    padding: 20px;
+}
+.bookmark h2{
+    width: 30%;
+    font-size: 1.5em;
+}
+.btn
+{
+    margin: 15px 5px;
+}
+.btn:hover
+{
+    box-shadow: 2px 5px 3px 0px #888;
+}

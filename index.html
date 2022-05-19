@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bookmark</title>
+</head>
+<body>
+    <headr>
+        <div class="container">
+        <h3>Bookmarker</h3>
+        <div class="line"></div>
+    </div>
+    </headr>
+  
+        <div class="container">
+            <div class="column">
+                <div class="body-contain">
+                <h2>Bookmark your favourite sites</h2>
+                <p>Site map</p>
+                <input type="text" placeholder="Website Name" id="siteName" >
+                <p class="alert alert-error m-auto" id="alert">Name is Required</p>
+                <p>Site URL</p>
+                <input type="text" placeholder="Website URL" id="siteURL" >
+                <p class="alert alert-error m-auto" id="alert">URL Field is Required</p>
+                <button class="btn btn-primary" id="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div class="display">
+        <div class="container">
+            <div class="bookmark-list" id="bookmarkList" >
+                <!-- <div class="bookmark">
+                <h2></h2>
+                <a href="#" class="btn btn-primary btn-visit" target="_blank">Visit</a>
+                <button class="btn btn-danger btn-delete">Delete</button>
+            </div> -->
+        </div>
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <p>© 2019 Bookmarker Inc.</p>
+        </div>
+    </div>
+ <script src="js/script.js"></script>   
+</body>
+</html>
